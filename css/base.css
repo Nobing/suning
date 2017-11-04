@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";}
+select, input { vertical-align:middle;}  /*垂直对齐方式*/
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } 
+img {border:0;  vertical-align:middle; }  
+table { border-collapse:collapse; }
+body {
+    font:12px/1.5 "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+    /*font:12px/150% Arial,Verdana,"\5b8b\4f53";*/
+    color:#333;
+    background:#f2f2f2;
+    min-width: 1190px;
+}
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+@font-face{
+    font-family:'ng-iconfont';
+    src:url(../font/iconfont.woff);
+}
+.ifont{
+            font-family:ng-iconfont;
+        }
+a {color:#666; text-decoration:none; }
+a:hover{color:#f60;}
+h1,h2,h3,h4/*,h5,h6*/ {text-decoration:none;font-weight:normal;font-size:100%;}
+s,i,em{font-style:normal;text-decoration:none;}
+.col-red{color: #f60!important;}
+::-moz-placeholder { color: #bbbbbb; }
+::-webkit-input-placeholder { color:#bbbbbb; }
+:-ms-input-placeholder { color:#bbbbbb; }
+
+
+/*版心盒子*/
+.container {  
+    width: 1190px;margin:0 auto;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+.al {
+    text-align:left;
+}
+.ac {
+    text-align:center;
+}
+.ar {
+    text-align:right;
+}
+.hide {
+    display:none;
+}
+.mt10 {
+    margin-top: 10px!important;
+}
+
+.mr10 {
+    margin-right: 10px!important;
+}
+.mr8{
+    margin-right: 8px!important;
+}
+.mr5{
+    margin-right: 5px!important;
+}
+.mr2{
+    margin-right: 5px!important;
+}
+
+.mb10 {
+    margin-bottom: 10px!important;
+}
+.mt60 {
+    margin-top: 60px!important;
+}
+.mt10 {
+    margin-top: 10px!important;
+}
+.mt5 {
+    margin-top: 5px!important;
+}
+.ml10 {
+    margin-left: 10px!important;
+}
+.ml-4 {
+    margin-left: -4px!important;
+}
+.pr15 {
+    padding-right: 15px!important;
+}
+.fs12 {
+    font-size: 12px!important;
+}
+.fs17 {
+    font-size: 17px!important;
+}
+.ti1 {
+    text-indent: 1em;
+}
